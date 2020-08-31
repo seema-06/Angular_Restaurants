@@ -10,6 +10,8 @@ import { MatDialogModule } from '@angular/material/dialog';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatIconModule } from '@angular/material/icon';
 import { FlexLayoutModule} from '@angular/flex-layout';
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
@@ -35,6 +37,7 @@ import { AppRoutingModule } from './app-routing/app-routing.module';
 import { LoginComponent } from './login/login.component';
 import { from } from 'rxjs';
 import { HighlightDirective } from './directives/highlight.directive';
+import { SidenavbarComponent } from './sidenavbar/sidenavbar.component';
 
 
 
@@ -49,7 +52,8 @@ import { HighlightDirective } from './directives/highlight.directive';
     AboutComponent,
     ContactComponent,
     LoginComponent,
-    HighlightDirective
+    HighlightDirective,
+    SidenavbarComponent
   ],
   imports: [
     BrowserModule,
@@ -61,6 +65,8 @@ import { HighlightDirective } from './directives/highlight.directive';
     MatToolbarModule,
     MatListModule,
     MatGridListModule,
+    MatSidenavModule,
+    MatIconModule,
     MatCardModule,
     MatButtonModule,
     MatDialogModule,
