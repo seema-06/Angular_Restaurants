@@ -4,7 +4,7 @@ export const PRAMOTIONS: Pramotion[] = [
    {
     id: '0',
     name: 'Weekend Grand Buffet',
-    image: '/assets/images/buffet.png',
+    image: 'assets/images/buffet.png',
     lable: 'NEW',
     price: '4.99',
     featued: true,
